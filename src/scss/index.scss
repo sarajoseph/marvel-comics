@@ -1,0 +1,31 @@
+@import 'fonts';
+@import 'reset';
+@import 'variables';
+
+body{
+	background-attachment: fixed;
+	background-color: $color__white;
+	font-family: $fontFamily__LatoRegular;
+	font-size: 12px;
+}
+
+.header{
+	align-items: center;
+	background-color: #202020;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	.title{
+		background-color: $color__red;
+		color: $color__white;
+		font-family: $fontFamily__Marvel;
+		font-size: 50px;
+		height: 50px;
+		padding: 2px 4px;
+		text-transform: uppercase;
+		@media only screen and (min-width: $screen__minDesktopSize){
+			font-size: 80px;
+			height: 75px;
+		}
+	}
+}
