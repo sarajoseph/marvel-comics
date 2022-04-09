@@ -1,0 +1,120 @@
+@import 'variables';
+
+.comic-page{
+	margin: 30px auto 0;
+	max-width: 1280px;
+	@media only screen and (min-width: $screen__minDesktopSize){
+		margin: 30px auto 50px;
+	}
+	.back-button{
+		padding: 0 5px;
+		@media only screen and (min-width: $screen__minDesktopSize){
+			padding: 0;
+		}
+		&--link{
+			align-items: center;
+			display: flex;
+			gap: 5px;
+		}
+		&--icon{
+			background-color: #202020;
+			border-radius: 50%;
+			color: $color__white;
+			font-size: 15px;
+			padding: 5px 7px;
+			text-align: center;
+		}
+		&--text{
+			font-family: $fontFamily__LatoLight;
+			font-size: 15px;
+			text-transform: uppercase;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+	.comic-container{
+		align-items: center;
+		background-color: #151515;
+		color: $color__white;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		margin-top: 30px;
+		padding: 20px;
+		@media only screen and (min-width: $screen__minDesktopSize){
+			align-items: normal;
+			border-radius: 10px;
+			flex-direction: row;
+			margin-top: 50px;
+		}
+	}
+	.comic__image{
+		@media only screen and (min-width: $screen__minDesktopSize){
+			width: 30%;
+		}
+		img{
+			border: 5px solid $color__white;
+			max-width: 350px;
+			width: 100%;
+		}
+	}
+	.comic__info{
+		display: flex;
+		flex-direction: column;
+		font-size: 15px;
+		justify-content: space-evenly;
+		padding-top: 30px;
+		@media only screen and (min-width: $screen__minDesktopSize){
+			padding-left: 50px;
+			padding-top: 0;
+			width: 70%;
+		}
+		label{
+			display: block;
+			font-weight: bold;
+			padding-bottom: 5px;
+			text-transform: capitalize;
+		}
+		&--item{
+			margin-right: 50px;
+			padding: 10px 0 10px;
+		}
+		&--items{
+			display: flex;
+			flex-wrap: wrap;
+			//justify-content: space-between;
+		}
+	}
+	.comic__author--name{
+		cursor: pointer;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	.comic__title{
+		font-family: $fontFamily__LatoBold;
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+	.comic__button{
+		background-color: $color__red;
+		border-radius: 5px;
+		color: $color__white;
+		display: block;
+		font-family: 'Lato-Bold';
+		font-size: 15px;
+		margin: 10px 0;
+		padding: 10px;
+		text-align: center;
+		text-transform: uppercase;
+		transition: all .3s;
+		width: 100%;
+		&:hover{
+			background-color: $color__red--dark;
+		}
+		@media only screen and (min-width: $screen__minDesktopSize){
+			width: 300px;
+		}
+	}
+}
