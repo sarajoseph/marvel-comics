@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sarajoseph.github.io/marvel-comics/static/css/main.e50ec8cb.css",
-    "main.js": "/sarajoseph.github.io/marvel-comics/static/js/main.8a67095c.js",
+    "main.js": "/sarajoseph.github.io/marvel-comics/static/js/main.af631ade.js",
     "static/media/fa-solid-900.ttf": "/sarajoseph.github.io/marvel-comics/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/fa-brands-400.ttf": "/sarajoseph.github.io/marvel-comics/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
     "static/media/fa-solid-900.woff2": "/sarajoseph.github.io/marvel-comics/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
@@ -17,10 +17,10 @@
     "static/media/fa-v4compatibility.woff2": "/sarajoseph.github.io/marvel-comics/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/sarajoseph.github.io/marvel-comics/index.html",
     "main.e50ec8cb.css.map": "/sarajoseph.github.io/marvel-comics/static/css/main.e50ec8cb.css.map",
-    "main.8a67095c.js.map": "/sarajoseph.github.io/marvel-comics/static/js/main.8a67095c.js.map"
+    "main.af631ade.js.map": "/sarajoseph.github.io/marvel-comics/static/js/main.af631ade.js.map"
   },
   "entrypoints": [
     "static/css/main.e50ec8cb.css",
-    "static/js/main.8a67095c.js"
+    "static/js/main.af631ade.js"
   ]
 }
