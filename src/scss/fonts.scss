@@ -1,0 +1,31 @@
+$fontsPath: '../fonts/';
+
+@font-face {
+	font-family: 'Lato';
+	src: url($fontsPath+'Lato-Regular.ttf');
+	src: url($fontsPath+'Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Lato-Thin';
+	src: url($fontsPath+'Lato-Thin.ttf');
+	src: url($fontsPath+'Lato-Thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Lato-Light';
+	src: url($fontsPath+'Lato-Light.ttf');
+	src: url($fontsPath+'Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Lato-Bold';
+	src: url($fontsPath+'Lato-Bold.ttf');
+	src: url($fontsPath+'Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Marvel';
+	src: url($fontsPath+'Marvel.ttf');
+	src: url($fontsPath+'Marvel.ttf') format('truetype');
+}
